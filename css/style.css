@@ -195,6 +195,9 @@ footer{
     font-weight: 800;
     cursor: pointer;
 }
+.toolsContainer .endCall .endCallSymbol{
+    display: none;
+}
 .toolsContainer .endCall span{
     width: 100%;
     text-align: center;
