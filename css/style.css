@@ -17,6 +17,7 @@
     --txt-btn-top-tags: #ffffff;
     --txt-btn-share: #43a806;
     --txt-btn-share-hover: #008000;
+    --txt-card-microphone: #ff0000;
     /* Size variables */
     --body-font-size: 0.8rem;
     --microphone-font-size: 0.9rem;
@@ -153,6 +154,7 @@ main{
 .camsContainer .cam .username i{
     font-size: var(--microphone-font-size);
     padding-right: 3px;
+    color: var(--txt-card-microphone);
 }
 .camsContainer .cam:hover{
     border: 2px solid var(--txt-body);
