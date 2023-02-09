@@ -26,8 +26,8 @@
     --cams-gap-row: 12px;
     --footer-height: 80px;
     --btn-end-call-width: 115px;
-    --action-symbol-font-size: 2rem;
-    --action-angular-font-size: 1rem;
+    --action-symbol-font-size: 1.8rem;
+    --action-angular-font-size: 0.7rem;
     /* Utility variables */
     --number-columns: 7;
     --number-rows: 5;
@@ -168,12 +168,17 @@ footer{
 .toolsContainer .action{
     padding: 15px;
     height: 100%;
+    text-align: center;
 }
 .toolsContainer .action i{
     font-size: var(--action-symbol-font-size);
+}
+.toolsContainer .action span{
+    padding-top: 8px;
 }
 .toolsContainer .other{
     height: 100%;
     font-size: var(--action-angular-font-size);
     position: relative;
+    margin: 0 0.5rem 0 0.5rem;
 }
