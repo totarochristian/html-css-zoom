@@ -136,6 +136,7 @@ main{
     background-image: url(https://picsum.photos/300/200);
     background-size: cover;
     min-width: 90px;
+    border: 2px solid trasparent;
 }
 .camsContainer .cam .username{
     background-color: rgba(0, 0, 0, 0.4);
@@ -145,6 +146,10 @@ main{
 .camsContainer .cam .username i{
     font-size: var(--microphone-font-size);
     padding-right: 3px;
+}
+.camsContainer .cam:hover{
+    border: 2px solid var(--txt-body);
+    cursor: pointer;
 }
 
 /*****************************************************************/
