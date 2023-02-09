@@ -8,6 +8,7 @@
     --bg-btn-end-call: #424242;
     --bg-btn-top-tags: #4a4a4a;
     --bg-btn-hover: #3d3b3d;
+    --bg-btn-end-call-hover: #585858;
     /* Text colors variables */
     --txt-body: #ffffff;
     --txt-footer: #ffffff;
@@ -166,6 +167,10 @@ footer{
     color: var(--txt-btn-end-call);
     position: relative;
 }
+.toolsContainer .endCall:hover{
+    background-color: var(--bg-btn-end-call-hover);
+    font-weight: 700;
+}
 .toolsContainer .endCall span{
     width: 100%;
     text-align: center;
@@ -195,4 +200,7 @@ footer{
 .toolsContainer .btn:hover{
     background-color: var(--bg-btn-hover);
     border-radius: 5px;
+}
+.toolsContainer .btn:hover .txt-green{
+    color: var(--txt-btn-share-hover);
 }
