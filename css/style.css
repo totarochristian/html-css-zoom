@@ -102,9 +102,10 @@ main{
     background-size: cover;
 }
 .camsContainer .cam .username{
-    background-color: rgba(0, 0, 0, 0.3);
-    padding: 5px 10px;
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 10px 5px;
     text-transform: capitalize;
+    text-align: center;
 }
 
 /*****************************************************************/
