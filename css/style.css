@@ -167,7 +167,7 @@ main{
     visibility: visible;
 }
 .camsContainer .ban:hover{
-    opacity: 1;
+    opacity: 0.9;
     font-size: var(--cam-ban-font-size);
 }
 
