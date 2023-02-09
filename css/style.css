@@ -59,6 +59,12 @@ body{
 .capitalize{
     text-transform: capitalize;
 }
+.translate-center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
 
 /*****************************************************************/
 /**************************** Flexbox ****************************/
@@ -68,6 +74,9 @@ body{
     flex-flow: row wrap;
     justify-content: space-between;
     align-content: fle;
+}
+.flex-col{
+    flex-flow: column wrap;
 }
 .row-align-center{
     align-items: center;
@@ -98,6 +107,7 @@ main{
 .camsContainer{
     width: 100%;
     height: 80vh;
+    overflow: hidden;
 }
 .viewOptions .option{
     background-color: var(--bg-btn-top-tags);
@@ -116,6 +126,7 @@ main{
     height: calc(100% / var(--number-rows) - var(--cams-gap-row));
     background-image: url(https://picsum.photos/300/200);
     background-size: cover;
+    min-width: 90px;
 }
 .camsContainer .cam .username{
     background-color: rgba(0, 0, 0, 0.4);
@@ -135,4 +146,19 @@ footer{
     height: var(--footer-height);
     background-color: var(--bg-footer);
     color: var(--txt-footer);
+    overflow-y: auto;
+}
+.toolsContainer{
+    height: 100%;
+}
+.toolsContainer .endCall{
+    width: 100px;
+    height: 100%;
+    background-color: var(--bg-btn-end-call);
+    color: var(--txt-btn-end-call);
+    position: relative;
+}
+.toolsContainer .endCall span{
+    width: 100%;
+    text-align: center;
 }
