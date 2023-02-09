@@ -16,13 +16,14 @@
     --txt-btn-share-hover: #008000;
     --txt-btn-hover: #d9d9d9;
     /* Size variables */
-    --body-font-size: 0.9rem;
+    --body-font-size: 0.8rem;
+    --microphone-font-size: 0.9rem;
     --main-padding-top: 80px;
     --main-padding-right: 90px;
     --main-padding-left: 90px;
     --main-padding-bottom: 50px;
     --cams-gap-column: 5px;
-    --cams-gap-row: 15px;
+    --cams-gap-row: 12px;
     --footer-height: 80px;
     /* Utility variables */
     --number-columns: 7;
@@ -58,7 +59,7 @@ body{
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
-    align-content: center;
+    align-content: fle;
 }
 .row-align-center{
     align-items: center;
@@ -103,9 +104,13 @@ main{
 }
 .camsContainer .cam .username{
     background-color: rgba(0, 0, 0, 0.4);
-    padding: 10px 5px;
+    padding: 7px 5px;
     text-transform: capitalize;
     text-align: center;
+}
+.camsContainer .cam .username i{
+    font-size: var(--microphone-font-size);
+    padding-right: 3px;
 }
 
 /*****************************************************************/
