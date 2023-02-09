@@ -160,6 +160,10 @@ main{
 .camsContainer .cam .ban{
     font-size: var(--cam-ban-font-size);
     opacity: 0.4;
+    visibility: hidden;
+}
+.camsContainer .cam:hover .ban{
+    visibility: visible;
 }
 
 /*****************************************************************/
