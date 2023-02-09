@@ -30,6 +30,7 @@
     --btn-end-call-width: 115px;
     --action-symbol-font-size: 1.8rem;
     --action-angular-font-size: 0.7rem;
+    --cam-ban-font-size: 5rem;
     /* Utility variables */
     --number-columns: 7;
     --number-rows: 5;
@@ -155,6 +156,10 @@ main{
 .camsContainer .cam:hover{
     border: 2px solid var(--txt-body);
     cursor: pointer;
+}
+.camsContainer .cam .ban{
+    font-size: var(--cam-ban-font-size);
+    opacity: 0.4;
 }
 
 /*****************************************************************/
