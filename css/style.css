@@ -16,7 +16,7 @@
     --txt-btn-share-hover: #008000;
     --txt-btn-hover: #d9d9d9;
     /* Size variables */
-    --body-font-size: 1rem;
+    --body-font-size: 0.9rem;
     --main-padding-top: 80px;
     --main-padding-right: 90px;
     --main-padding-left: 90px;
@@ -44,6 +44,11 @@
 body{
     font-family: 'Helvetica','Arial'!important;
     font-size: var(--body-font-size);
+}
+.pos-angle-bottom-left{
+    position: absolute;
+    bottom: 0;
+    left: 0;
 }
 
 /*****************************************************************/
@@ -89,10 +94,17 @@ main{
 /*****************************************************************/
 /****************************** Cam ******************************/
 /*****************************************************************/
-.cam{
+.camsContainer .cam{
+    position: relative;
     width: calc(100% / var(--number-columns));
     height: calc(100% / var(--number-rows));
-    background-color: orange;
+    background-image: url(https://picsum.photos/300/200);
+    background-size: cover;
+}
+.camsContainer .cam .username{
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 5px 10px;
+    text-transform: capitalize;
 }
 
 /*****************************************************************/
