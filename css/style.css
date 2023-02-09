@@ -31,6 +31,7 @@
     --action-symbol-font-size: 1.8rem;
     --action-angular-font-size: 0.7rem;
     --cam-ban-font-size: 5rem;
+    --end-call-symbol-font-size: 2rem;
     /* Utility variables */
     --number-columns: 7;
     --number-rows: 5;
@@ -201,6 +202,13 @@ footer{
 .toolsContainer .endCall span{
     width: 100%;
     text-align: center;
+}
+.toolsContainer .endCall:hover .text{
+    display: none;
+}
+.toolsContainer .endCall:hover .endCallSymbol{
+    display: block;
+    font-size: var(--end-call-symbol-font-size);
 }
 .toolsContainer .action{
     height: 100%;
