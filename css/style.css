@@ -79,7 +79,6 @@ body{
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
-    align-content: fle;
 }
 .flex-col{
     flex-flow: column wrap;
@@ -92,6 +91,9 @@ body{
 }
 .col-gap{
     column-gap: var(--cams-gap-column);
+}
+.little-col-gap{
+    column-gap: var(--cams-gap-column-little);
 }
 .row-gap{
     row-gap: var(--cams-gap-row);
@@ -169,9 +171,14 @@ footer{
     text-align: center;
 }
 .toolsContainer .action{
-    padding: 15px;
     height: 100%;
     text-align: center;
+}
+.toolsContainer .largePadding{
+    padding: 15px;
+}
+.toolsContainer .smallPadding{
+    padding: 7px;
 }
 .toolsContainer .action i{
     font-size: var(--action-symbol-font-size);
