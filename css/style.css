@@ -25,6 +25,9 @@
     --cams-gap-column: 5px;
     --cams-gap-row: 12px;
     --footer-height: 80px;
+    --btn-end-call-width: 115px;
+    --action-symbol-font-size: 2rem;
+    --action-angular-font-size: 1rem;
     /* Utility variables */
     --number-columns: 7;
     --number-rows: 5;
@@ -152,7 +155,7 @@ footer{
     height: 100%;
 }
 .toolsContainer .endCall{
-    width: 100px;
+    width: var(--btn-end-call-width);
     height: 100%;
     background-color: var(--bg-btn-end-call);
     color: var(--txt-btn-end-call);
@@ -161,4 +164,16 @@ footer{
 .toolsContainer .endCall span{
     width: 100%;
     text-align: center;
+}
+.toolsContainer .action{
+    padding: 15px;
+    height: 100%;
+}
+.toolsContainer .action i{
+    font-size: var(--action-symbol-font-size);
+}
+.toolsContainer .other{
+    height: 100%;
+    font-size: var(--action-angular-font-size);
+    position: relative;
 }
