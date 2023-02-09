@@ -158,8 +158,8 @@ main{
     cursor: pointer;
 }
 .camsContainer .cam .ban{
-    font-size: var(--cam-ban-font-size);
-    opacity: 0.4;
+    font-size: calc(var(--cam-ban-font-size) - 0.6rem);
+    opacity: 0.5;
     visibility: hidden;
 }
 .camsContainer .cam:hover .ban{
@@ -167,6 +167,7 @@ main{
 }
 .camsContainer .ban:hover{
     opacity: 1;
+    font-size: var(--cam-ban-font-size);
 }
 
 /*****************************************************************/
