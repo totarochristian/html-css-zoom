@@ -165,6 +165,9 @@ main{
 .camsContainer .cam:hover .ban{
     visibility: visible;
 }
+.camsContainer .ban:hover{
+    opacity: 1;
+}
 
 /*****************************************************************/
 /***************************** Footer ****************************/
