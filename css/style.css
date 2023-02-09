@@ -96,8 +96,8 @@ main{
 /*****************************************************************/
 .camsContainer .cam{
     position: relative;
-    width: calc(100% / var(--number-columns));
-    height: calc(100% / var(--number-rows));
+    width: calc(100% / var(--number-columns) - var(--cams-gap-column));
+    height: calc(100% / var(--number-rows) - var(--cams-gap-row));
     background-image: url(https://picsum.photos/300/200);
     background-size: cover;
 }
